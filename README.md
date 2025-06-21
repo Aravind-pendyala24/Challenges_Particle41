@@ -8,7 +8,7 @@ All the application related files are under /app directory
 
 Steps
 
-- To Use the application Please follow below steps
+- To Use and Run the application Please follow below steps
  - First clone the Repository
      
     ```bash
@@ -40,6 +40,41 @@ Steps
    ```bash
       https://hub.docker.com/r/aravinduser12/particle41app
      ```
+
+# Task 2 - Terraform and Cloud: create the infrastructure to host your container
+
+All the terraform related files are created under terraform directory
+
+- To use the terraform files Please follow below steps
+
+  - First clone the Repository
+     
+    ```bash
+     git clone https://github.com/Aravind-pendyala24/Challenges_Particle41.git
+     ```
+  - Get into /app directory
+
+    ```bash
+    cd /terraform
+     ```
+  - Edit terraform.tfvars to provide access and secret key under terraform directory
+ 
+  - Run Terraform Init to Intialize terraform
+
+     ```bash
+    terraform init
+     ```
+  - Run Terraform Plan
+
+     ```bash
+    terraform plan
+     ```
+   - Run Terraform apply
+
+     ```bash
+     terraform apply -auto--approve
+      ```
+  
     
    
 
