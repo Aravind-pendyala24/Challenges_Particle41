@@ -3,8 +3,19 @@ variable "aws_region" {
   type        = string
 }
 
+variable "access_key" {
+  description = "AWS Access Key"
+  type        = string
+}
+
+variable "secret_key" {
+  description = "AWS Secret Key"
+  type        = string
+}
+
+
 variable "name" {
-  description = "Name prefix for resources"
+  description = "Name for resources"
   type        = string
 }
 
