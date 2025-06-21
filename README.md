@@ -72,7 +72,7 @@ All the terraform related files are created under terraform directory
    - Run Terraform apply
 
      ```bash
-     terraform apply -auto--approve
+     terraform apply -auto-approve
       ```
   
     
