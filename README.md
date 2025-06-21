@@ -74,6 +74,8 @@ All the terraform related files are created under terraform directory
      ```bash
      terraform apply -auto-approve
       ```
+
+  Used Gen AI to get to know the required and optional fields for the terraform resources to create and on an idea to develop an app using python
   
     
    
