@@ -12,7 +12,7 @@ Steps
  - First clone the Repository
      
     ```bash
-     git clone [<repository_link>](https://github.com/Aravind-pendyala24/Challenges_Particle41.git)
+     git clone https://github.com/Aravind-pendyala24/Challenges_Particle41.git
      ```
  - Get into /app directory
 
@@ -29,6 +29,19 @@ Steps
     ```bash
      docker run -d -p 5000:5000 SimpleTimeService:v1
      ```
+ - The Docker Image is pushed to Dockerhub as well . Please follow below instructions to pull and run the image
+
+   ```bash
+     docker pull aravinduser12/particle41app:v1
+     docker run -d -p 5000:5000 aravinduser12/particle41app:v1
+     ```
+   Below is the DockerHub URL for the same
+
+   ```bash
+      https://hub.docker.com/r/aravinduser12/particle41app
+     ```
+    
+   
 
    
     
