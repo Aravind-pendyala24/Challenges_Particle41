@@ -1,6 +1,6 @@
-# Challenge 1
+# Challenges
 
-Task 1 - Minimalist Application Development / Docker / Kubernetes
+# Task 1 - Minimalist Application Development / Docker / Kubernetes
 
 To achieve this challenge I have developed the application in python using flask
 
