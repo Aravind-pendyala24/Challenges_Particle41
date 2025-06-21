@@ -26,5 +26,5 @@ module "alb" {
   public_subnet_ids  = module.vpc.public_subnet_ids
   vpc_id             = module.vpc.vpc_id
   cluster_name       = module.eks.cluster_name
-  service_name       = "flask-ip-api"
+  service_name       = "SimpleTimeService"
 }
